@@ -1,0 +1,69 @@
+site_name: openBIMBrasil
+site_url: https://vitorhpmartins.github.io/movimentobim.github.io/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.progress
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: amber
+      accent: blue 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: blue
+      accent: amber
+
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/vitorhpmartins
+      name: GitHub
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:vitor@planbuild.com.br
+      name: E-mail
+ 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: "#"
+
+plugins:
+  - search
+  - tags
+
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/vitorhpmartins"  target="_blank" rel="noopener">Vitor Martins</a>

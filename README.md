@@ -1,2 +1,2 @@
-# MovimentoBIM
- Orientações de trabalho em projetos openBIM (IFC) utilizando normas brasileiras relacionadas ao BIM.
+# openBIMBrasil.github.io
+Repositório criando para auxiliar na padronização e classificação dos modelos IFC seguindo boas práticas da documentação da buildingSMART e as Normas Brasileiras (NBR) disponíveis no mercado.
